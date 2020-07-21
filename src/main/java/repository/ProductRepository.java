@@ -14,7 +14,7 @@ public class ProductRepository {
         products = plusOne;
     }
 
-    public Product[] findAll() {
+    public Product[] getAll() {
         return products;
     }
 
